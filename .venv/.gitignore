@@ -1,0 +1,37 @@
+Ignora todos os arquivos Excel (XLSX, XLS) em qualquer lugar do projeto
+
+*.xlsx
+*.xls
+
+Ignora arquivos de log e temporários
+
+*.log
+temp/
+
+Pastas e arquivos gerados pelo Python
+
+pycache/
+*.pyc
+
+Pastas do ambiente virtual
+
+.venv/
+venv/
+env/
+
+Pastas e arquivos gerados pelo PyInstaller (para criação do executável)
+
+build/
+dist/
+*.spec
+
+Arquivos de IDEs (Opcional, mas recomendado)
+
+Exemplo para VS Code
+
+.vscode/
+
+Arquivos de sistema
+
+.DS_Store
+Thumbs.db
