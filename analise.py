@@ -305,7 +305,7 @@ class FilterDialog:
         # Criar janela de diálogo
         dialog = tk.Toplevel(parent)
         dialog.title(title)
-        dialog.geometry("250x250")
+        dialog.geometry("250x300")
         
         # Campos do Editar Filtro        
         ttk.Label(dialog, text="Nome do Filtro:").pack(pady=2)
